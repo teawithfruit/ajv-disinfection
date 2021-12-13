@@ -9,7 +9,7 @@ const int = (data) => toInt(data);
 const text = (data) => trim(escape(data));
 
 const html = (data, options) => {
-  if(options.name) options.name = undefined
+  if(options && options.name) options.name = undefined
   return sanitizeHtml(data, options);
 }
 
