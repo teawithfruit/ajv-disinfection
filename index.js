@@ -25,7 +25,6 @@ const ajvDisinfection = (ajv, extraDisinfection) => {
 					if(typeof schema === 'object') {
 						currentDataPath.parentData[currentDataPath.parentDataProperty] = disinfect(data, schema);
 					} else {
-						console.log('blub');
 						currentDataPath.parentData[currentDataPath.parentDataProperty] = disinfect(data);
 					}
 				}
