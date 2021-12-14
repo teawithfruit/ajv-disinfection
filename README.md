@@ -31,7 +31,7 @@ ajv.validate(schema, data);
 ```
 
 ### Advanced HTML sanitization
-You have the ability to set options based on apostrophecms/sanitize-html.
+You have the ability to set options based on [apostrophecms/sanitize-html](https://github.com/apostrophecms/sanitize-html).
 This example just allow <u> tags.
 
 ```js
