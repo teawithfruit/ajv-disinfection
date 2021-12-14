@@ -32,7 +32,7 @@ ajv.validate(schema, data);
 
 ### Advanced HTML sanitization
 You have the ability to set options based on apostrophecms/sanitize-html.
-This example just allows <u> tags.
+This example just allow <u> tags.
 
 ```js
 import Ajv from 'ajv'
